@@ -1,8 +1,14 @@
-@import "tailwindcss";
+@import "tailwindcss/base.css";
+@import "tailwindcss/components.css";
+@import "tailwindcss/utilities.css";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+}
+
+body {
+  font-family: "Pretendard", sans-serif;
 }
 
 @theme inline {
